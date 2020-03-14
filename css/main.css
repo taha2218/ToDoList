@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    height: 9vh;
+    background-color:rgb(241, 78, 2) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 2em;
+    font-family: 'Pacifico', cursive;
+}
+
+.innerContainer{
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 7, 1);
+}
+
+.card{
+    background-color:white;
+    border-radius: 6px;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+ul{
+    padding: 16px;   
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    color: rgb(241, 78, 2);
+    font-weight: 600;
+    text-align: center;
+}
+
+.sub{
+   background: rgb(241, 78, 2);
+   padding: 16px; 
+   padding-top: 16px;
+   padding-bottom: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.sub input[type=text]{
+    height: 19px;
+    padding: 4px;
+    color: rgb(241, 78, 2);
+    font-weight: 50 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-align: center;
+    border: white;
+    border-radius: 3px;
+    
+}
+
+.sub input[type=text]:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgb(255, 170, 124);
+}
+
+.sub button{
+    margin-top: 12px;
+    color: rgb(19, 7, 1);
+    height: 25px;
+    width: 85px;
+    background-color: rgb(255, 170, 124);
+    border: rgb(19, 7, 1);
+    font-size: 0.7em;
+    border-radius: 4px;
+    transition: all 0.5s;
+    padding-right: 6px;
+    padding-left: 6px;
+    font-weight: 600;
+}
+.sub button:focus{
+    outline: none;
+}
+.sub button:hover{
+    background-color: rgb(19, 7, 1);
+    color: rgb(255, 170, 124);
+    cursor: pointer;
+}
