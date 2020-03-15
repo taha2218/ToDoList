@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <title>To Do List</title>
+    <meta name="theme-color" content="#f14e02"> 
 </head>
 <body>
     <div class="container">
@@ -15,7 +16,7 @@
         </header>
         <div class="innerContainer">
            <div class="card">
-               <ul>
+               <ul class="list">
                    <li>Learn Javascript</li>
                    <li>Write Code</li>
                    <li>Bunk College</li>
@@ -23,11 +24,12 @@
                    <li>Sleep More</li>
                </ul>
                <div class="sub">
-                    <input type="text" placeholder="Enter Activity" >
+                    <input id="activity" type="text" placeholder="Enter Activity" >
                     <button id="add">ADD TO LIST</button>
                </div>
            </div>
         </div>
     </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>
