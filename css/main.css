@@ -30,6 +30,12 @@ header{
     font-family: 'Baloo Chettan 2', cursive;
 }
 
+.buffer{
+    height: 12px;
+    background-color: rgb(241, 78, 2);
+    box-sizing: border-box;
+}
+
 ul{
     padding: 16px;   
 }
@@ -79,7 +85,7 @@ li{
     margin-top: 12px;
     color: rgb(19, 7, 1);
     height: 25px;
-    width: 85px;
+    width: 170px;
     background-color: rgb(255, 170, 124);
     border: rgb(19, 7, 1);
     font-size: 0.7em;
