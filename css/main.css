@@ -34,6 +34,8 @@ header{
     height: 12px;
     background-color: rgb(241, 78, 2);
     box-sizing: border-box;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 ul{
@@ -58,6 +60,8 @@ li{
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   border-bottom-left-radius: 6px;
+   border-bottom-right-radius: 6px;
 }
 
 .sub input[type=text]{
@@ -70,7 +74,6 @@ li{
     text-align: center;
     border: white;
     border-radius: 3px;
-    
 }
 
 .sub input[type=text]:focus{
@@ -84,8 +87,8 @@ li{
 .sub button{
     margin-top: 12px;
     color: rgb(19, 7, 1);
-    height: 25px;
-    width: 170px;
+    height: 28px;
+    width: 165px;
     background-color: rgb(255, 170, 124);
     border: rgb(19, 7, 1);
     font-size: 0.7em;
