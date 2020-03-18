@@ -5,14 +5,14 @@
 
 header{
     height: 9vh;
-    background-color:rgb(241, 78, 2) ;
+    background-color:rgb(255, 153, 0) ;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 2em;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive;`
     cursor: default;
 }
 
